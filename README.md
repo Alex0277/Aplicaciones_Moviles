@@ -287,6 +287,28 @@ Ejemplos apropiados de alarmas:
 
 No utilices Zabbix para registrar actividades personales de forma encubierta. Si una organización necesita un control de cumplimiento, documenta el propósito, la autorización, las métricas recogidas, el acceso y el tiempo de retención.
 
+## 8. Capturas de apoyo
+
+Las capturas procedentes del material de apoyo están disponibles en [`docs/assets/`](docs/assets/). Las imágenes 12 a 15 fueron redactadas para eliminar credenciales de aplicación y direcciones personales antes de publicarse.
+
+| Figura | Enlace |
+|---:|---|
+| 1 | [Instalación del repositorio y paquetes](docs/assets/image1.png) |
+| 2 | [Validación del repositorio](docs/assets/image2.png) |
+| 3 | [Instalación de paquetes](docs/assets/image3.png) |
+| 4 | [Creación de la base de datos](docs/assets/image4.png) |
+| 5 | [Esquema y servicios](docs/assets/image5.png) |
+| 6 | [Requisitos del frontend](docs/assets/image6.png) |
+| 7 | [Conexión con la base de datos](docs/assets/image7.png) |
+| 8 | [Nombre y zona horaria](docs/assets/image8.png) |
+| 9 | [Resumen de preinstalación](docs/assets/image9.png) |
+| 10 | [Instalación completada](docs/assets/image10.png) |
+| 11 | [Panel de Zabbix](docs/assets/image11.png) |
+| 12 | [Contraseña de aplicación redactada](docs/assets/image12.png) |
+| 13 | [Configuración de aplicación redactada](docs/assets/image13.png) |
+| 14 | [Correo recibido redactado](docs/assets/image14.png) |
+| 15 | [Prueba del medio Email redactada](docs/assets/image15.png) |
+
 ## Seguridad antes de publicar
 
 Nunca subas contraseñas de MariaDB, contraseñas de aplicación SMTP, tokens, claves TLS/PSK, archivos `.env`, direcciones privadas ni logs sin revisar. Si una credencial del material original fue utilizada, revócala y genera una nueva. No expongas el panel ni el agente directamente a Internet.
